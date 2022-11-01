@@ -28,7 +28,7 @@ export default function App() {
       />
       {/* 使用function來做判斷 */}
       {getNumber()}
-
+      {getNumber()}   {/* git測試 */}
       {/* 使用三元運算來判斷 */}
       {validCode.length === 4 ? (
         validCode === '1234' ?
